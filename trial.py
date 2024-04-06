@@ -79,7 +79,7 @@ def capture_and_verify():
             print("Verification failed: Face not recognized.")
         
         # Wait for 15 seconds before capturing the next picture
-        time.sleep(15)
+        time.sleep(5)
         
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
